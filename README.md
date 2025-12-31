@@ -1,21 +1,33 @@
-# PyCyberSuite
+# PyCyberSuite 🔐
+PyCyberSuite is an all-in-one Python Cybersecurity Toolkit with a modern Tkinter GUI.  
+It integrates multiple security modules including network scanning, subdomain enumeration, password analysis, brute-force simulation, encryption tools, automation, and reporting — built strictly for **ethical and educational cybersecurity use**.
 
-PyCyberSuite is an all-in-one Python cybersecurity toolkit with a modern Tkinter GUI. It integrates multiple modules for authentication, network scanning, password analysis, brute force simulation, dictionary attacks, encryption, subdomain enumeration, automation, and reporting.
+---
 
-## Features
+## 🚀 Features
+✔ Secure Authentication System (JSON user database)  
+✔ Network Scanner (Nmap based – open ports & host detection)  
+✔ Subdomain Enumerator (wordlist based)  
+✔ Password Strength & Breach Checker  
+✔ Encryption Toolkit (Symmetric & Asymmetric)  
+✔ Brute Force Simulator  
+✔ Dictionary Attack Engine  
+✔ Automation & Scheduling Support  
+✔ Detailed JSON Report Generator  
 
-- **Authentication**: Secure login system using a JSON user database.
-- **Network Scanner**: Scan networks and hosts for open ports using nmap.
-- **Subdomain Scanner**: Enumerate subdomains for a given domain using a wordlist.
-- **Password Checker**: Analyze password complexity and check for breaches.
-- **Encryption Tools**: Symmetric and asymmetric encryption for secure messaging.
-- **Brute Force Simulator**: Demonstrate brute force password guessing.
-- **Dictionary Attack**: Crack password hashes using a wordlist.
-- **Automation**: Schedule network scans and password checks.
-- **Report Generation**: Save results and logs to JSON reports.
+---
 
-## Project Structure
+## 🧠 Tech Stack
+- Python 3.8+
+- Tkinter (GUI)
+- Cryptography
+- Requests
+- python-nmap
+- schedule
 
+---
+
+## 📂 Project Structure
 ```
 main.py                      # Main GUI application
 requirements.txt             # Python dependencies
@@ -59,23 +71,30 @@ Run the main application:
 ```powershell
 python main.py
 ```
+Login credentials are stored in `data/user.json`.
 
-- Log in with your credentials (see `data/user.json`).
-- Use the GUI to access all cybersecurity tools.
-- Reports are saved in the `reports/` directory.
+Reports are saved in the `reports/` directory.
 
-## Requirements
+---
 
-- Python 3.8+
-- See `requirements.txt` for all required libraries (tkinter, cryptography, requests, python-nmap, schedule, etc.)
+## 📝 Notes
+This toolkit is strictly for:
+- Educational Learning  
+- Ethical Cybersecurity Testing  
 
-## Contributing
+❌ Do NOT use for unauthorized penetration testing.
 
-Pull requests and suggestions are welcome! Please open issues for bugs or feature requests.
+---
 
-## License
+## 🤝 Contributing
+Pull requests are welcome!  
+Report issues and suggest enhancements anytime.
 
+---
+
+## 📜 License
 MIT License
+
 
 ---
 
