@@ -97,4 +97,3 @@ MIT License
 
 ---
 
-**Note:** This toolkit is for educational and ethical use only. Do not use it for unauthorized penetration testing or attacks.
