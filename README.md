@@ -57,8 +57,7 @@ data/                        # Data files
 
 1. Clone the repository:
    ```powershell
-   git clone https://github.com/HarvinderSingh22/Python.git
-   cd Python/PyCyberSuite
+   git clone https://github.com/HarvinderSingh22/PyCyberSuite.git
    ```
 2. Install dependencies:
    ```powershell
